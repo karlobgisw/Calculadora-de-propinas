@@ -41,24 +41,4 @@ export const menuItems:MenuItem[] = [
       "name": "Jugo de Naranja",
       "price": 15
     },
-    {
-      "id": 9,
-      "name": "Tequila",
-      "price": 40
-    },
-    {
-      "id": 10,
-      "name": "Rebanada de Pay de Queso",
-      "price": 30
-    },
-    {
-      "id": 11,
-      "name": "Café Americano",
-      "price": 20
-    },
-    {
-      "id": 12,
-      "name": "Café Capuchino",
-      "price": 40
-    }
 ]

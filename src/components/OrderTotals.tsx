@@ -14,16 +14,15 @@ export default function OrderTotals({order, tip, placeOrder}:OrderTotalsProps) {
   return (
     <>
         <div className="space-y-3">
-            <h2 className="font-black text-2xl">Totales y propina:</h2>
-            <p>Subtotal a pagar:  
+            <p className="border-t py-3 border-[#bfbc9f]">Subtotal a pagar:  
                 <span className="font-bold"> ${subtotalAmount}</span>
             </p>
 
-            <p>Propina:
+            <p className="border-t py-3 border-[#bfbc9f]">Propina:
                 <span className="font-bold"> ${subtotalAmount * tip}</span>
             </p>
 
-            <p>Total a pagar:
+            <p className="border-t py-3 border-[#bfbc9f]">Total a pagar:
                 <span className="font-bold"> ${subtotalAmount + (subtotalAmount * tip)}</span>
             </p>
         </div>
