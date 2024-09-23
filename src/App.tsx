@@ -22,7 +22,7 @@ function App() {
           <h2 className="text-4xl font-bold">Menú</h2>
           <div className="space-y-1 mt-5">
             {menuItems.map(item => (
-              <MenuItems key={item.id} item={item} addItem={addItem}></MenuItems>
+              <MenuItems key={item.id} item={item} addItem={addItem} id={item.id}></MenuItems>
             ))}
           </div>
         </div>
